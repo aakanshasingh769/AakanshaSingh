@@ -1,302 +1,811 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="l3HuOJUypOppht2bAvyuA-vw5YkHS02pl3bgHFUfvjQ" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Aakansha Singh - Digital Marketing Executive specializing in SEO, Social Media Marketing, and Content Strategy. Expert in Instagram & YouTube marketing for branding">
-    <meta name="keywords" content="Digital Marketing, SEO, Social Media Marketing, Instagram Marketing, YouTube Marketing, Brand Marketing, Content Optimization">
+    <meta name="google-site-verification" content="l3HuOJUypOppht2bAvyuA-vw5YkHS02pl3bgHFUfvjQ" />
+    <meta name="description" content="Aakansha Singh - Digital Marketing & IT Solutions Expert. Meta Ads, SEO, Social Media, Web Development & Lead Generation Specialist.">
+    <meta name="keywords" content="Digital Marketing, Meta Ads, SEO, Social Media Marketing, Google Map Integration, Web Development, Lead Generation, Greater Noida">
     <meta name="author" content="Aakansha Singh">
-    <meta property="og:title" content="Aakansha Singh - Digital Marketing Executive">
-    <meta property="og:description" content="Digital Marketing Executive specializing in SEO and Social Media Marketing">
+    <meta property="og:title" content="Aakansha Singh — Digital Marketing & IT Solutions">
+    <meta property="og:description" content="I help businesses scale with Meta Ads, SEO, Social Media, Google Map Integration, and Web Development.">
     <meta property="og:type" content="website">
-    <title>Aakansha Singh - Digital Marketing Executive | SEO & Social Media Expert</title>
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
+    <title>Aakansha Singh — Digital Marketing & IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,700;12..96,800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <!-- Favicon -->
-<link rel="icon" href="img/logo.ico" type="image/x-icon">
-
-
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.ico" type="image/x-icon">
 </head>
 <body>
-    
 
-    <!-- Navbar -->
-    <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#home">
-            <!-- Logo Image -->
-            <img src="img/logo.png" alt="Aakansha Singh Logo" class="navbar-logo me-2" style="height:40px;">
-            <!-- Brand Name -->
-            <span>Aakansha Singh</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- ─── NAVBAR ─── -->
+    <nav id="navbar">
+        <a href="#hero" class="nav-logo">Aakansha<span>.</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+    </nav>
+
+    <!-- ─── HERO ─── -->
+    <section id="hero">
+        <div class="hero-noise"></div>
+        <div class="hero-grid-lines"></div>
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-left">
+            <div class="hero-badge">
+                <div class="badge-dot"></div>
+                Available for new projects
+            </div>
+            <h1 class="hero-h1">
+                Digital<br>
+                <span class="line-accent">Marketing</span><br>
+                <span class="line-italic">&amp; IT Solutions</span>
+            </h1>
+            <p class="hero-desc">I help businesses scale with Meta Ads, SEO, Social Media, Google Map Integration, and Web Development — backed by an experienced team that delivers every project on time.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-primary">Explore Services <i class="fas fa-arrow-right"></i></a>
+                <a href="#projects" class="btn-ghost">View Work</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-num" data-target="2" data-suffix="+">0+</div>
+                    <div class="hero-stat-label">Years Experience</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-num" data-target="10" data-suffix="+">0+</div>
+                    <div class="hero-stat-label">Projects Completed</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-num" data-target="100" data-suffix="%">0%</div>
+                    <div class="hero-stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-right">
+            <div class="hero-img-frame">
+                <div class="hero-img-bg-shape"></div>
+                <div class="hero-card tl">
+                    <div class="hero-card-label">Top Keyword</div>
+                    <div class="hero-card-val">SEO #1</div>
+                    <div class="hero-card-sub">Google Rankings</div>
+                </div>
+                <img src="img/akansha.jpeg" alt="Aakansha Singh" class="hero-img"
+                     onerror="this.style.background='linear-gradient(135deg,#5c6ef8,#ec4899)';this.style.display='block'">
+                <div class="hero-card br">
+                    <div class="hero-card-label">Social Reach</div>
+                    <div class="hero-card-val">50K+</div>
+                    <div class="hero-card-sub">Across Platforms</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-hint-line"></div>
+            Scroll
+        </div>
+    </section>
+
+    <!-- ─── MARQUEE ─── -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Meta Ads</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">SEO Optimization</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Instagram Marketing</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">YouTube Growth</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Google Map Integration</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Web Development</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Lead Generation</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Facebook Ads</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Content Strategy</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Meta Ads</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">SEO Optimization</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Instagram Marketing</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">YouTube Growth</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Google Map Integration</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Web Development</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Lead Generation</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Facebook Ads</span>
+            <span class="marquee-dot marquee-item">●</span><span class="marquee-item">Content Strategy</span>
+            <span class="marquee-dot marquee-item">●</span>
         </div>
     </div>
-</nav>
 
+    <!-- ─── SERVICES ─── -->
+    <section id="services">
+        <div class="services-header">
+            <div>
+                <div class="section-eyebrow reveal">What I Offer</div>
+                <h2 class="section-h2 reveal reveal-delay-1">Services That <em>Drive Results</em></h2>
+            </div>
+            <div class="services-header-right reveal reveal-delay-2">
+                <p class="section-lead">From paid ads to organic growth — every service is designed to move the needle on your business.</p>
+            </div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-num">01 / 06</div>
+                <div class="service-icon-wrap"><i class="fab fa-facebook-f"></i></div>
+                <div class="service-name">Meta Ads (FB &amp; Instagram)</div>
+                <div class="service-desc">High-converting ad campaigns on Facebook and Instagram. From creative strategy to audience targeting and retargeting funnels that actually convert.</div>
+                <div class="service-tags">
+                    <span class="service-tag">Campaign Setup</span><span class="service-tag">A/B Testing</span><span class="service-tag">Retargeting</span><span class="service-tag">Lead Ads</span>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-1">
+                <div class="service-num">02 / 06</div>
+                <div class="service-icon-wrap"><i class="fas fa-search"></i></div>
+                <div class="service-name">SEO Optimization</div>
+                <div class="service-desc">Rank higher on Google with on-page, off-page, and technical SEO. Keyword research, backlink building, and competitor analysis.</div>
+                <div class="service-tags">
+                    <span class="service-tag">On-Page SEO</span><span class="service-tag">Backlinks</span><span class="service-tag">Keyword Research</span><span class="service-tag">Technical SEO</span>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <div class="service-num">03 / 06</div>
+                <div class="service-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="service-name">Google Map Integration</div>
+                <div class="service-desc">Get your business found locally. Google Maps setup, GMB optimization, local SEO, and map embeds on your website for maximum local reach.</div>
+                <div class="service-tags">
+                    <span class="service-tag">GMB Setup</span><span class="service-tag">Local SEO</span><span class="service-tag">Map Embed</span><span class="service-tag">Review Management</span>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-3">
+                <div class="service-num">04 / 06</div>
+                <div class="service-icon-wrap"><i class="fas fa-share-alt"></i></div>
+                <div class="service-name">Social Media Handling</div>
+                <div class="service-desc">Full management of Instagram and Facebook — content calendar, reel creation, caption writing, hashtag research, and community engagement.</div>
+                <div class="service-tags">
+                    <span class="service-tag">Instagram</span><span class="service-tag">Facebook</span><span class="service-tag">Reels</span><span class="service-tag">Content Calendar</span>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-4">
+                <div class="service-num">05 / 06</div>
+                <div class="service-icon-wrap"><i class="fas fa-code"></i></div>
+                <div class="service-name">Web Development</div>
+                <div class="service-desc">Clean, responsive, and SEO-friendly websites. From landing pages and portfolios to business sites and WordPress development that convert.</div>
+                <div class="service-tags">
+                    <span class="service-tag">HTML/CSS</span><span class="service-tag">WordPress</span><span class="service-tag">Landing Pages</span><span class="service-tag">Responsive</span>
+                </div>
+            </div>
+            <div class="service-card reveal reveal-delay-5">
+                <div class="service-num">06 / 06</div>
+                <div class="service-icon-wrap"><i class="fas fa-funnel-dollar"></i></div>
+                <div class="service-name">Lead Generation</div>
+                <div class="service-desc">End-to-end lead gen strategies combining paid ads, landing pages, and email nurture flows to consistently fill your sales pipeline.</div>
+                <div class="service-tags">
+                    <span class="service-tag">Paid Ads</span><span class="service-tag">Landing Pages</span><span class="service-tag">Email Funnels</span><span class="service-tag">CRM Setup</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7 hero-content">
-                    <h1>Hi, I'm <span class="highlight">Aakansha Singh</span></h1>
-                    <p>Digital Marketing Executive | SEO Specialist | Social Media Manager</p>
+    <!-- ─── NUMBERS ─── -->
+    <section id="numbers">
+        <div class="numbers-grid">
+            <div class="number-item reveal">
+                <div class="number-val" data-target="2" data-suffix="+">0+</div>
+                <div class="number-label">Years of Experience</div>
+            </div>
+            <div class="number-item reveal reveal-delay-1">
+                <div class="number-val" data-target="10" data-suffix="+">0+</div>
+                <div class="number-label">Clients Served</div>
+            </div>
+            <div class="number-item reveal reveal-delay-2">
+                <div class="number-val" data-target="50" data-suffix="K+">0</div>
+                <div class="number-label">Social Media Reach</div>
+            </div>
+            <div class="number-item reveal reveal-delay-3">
+                <div class="number-val" data-target="100" data-suffix="%">0%</div>
+                <div class="number-label">Client Satisfaction</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── TEAM & PARTNERS ─── -->
+    <section id="team">
+        <div class="section-eyebrow reveal">The People Behind the Work</div>
+        <h2 class="section-h2 reveal reveal-delay-1">Experienced Team &amp; <em>Trusted Partners</em></h2>
+        <p class="section-lead reveal reveal-delay-2">I don't work alone — I work with a handpicked network of skilled specialists and technology partners. Together, we deliver projects on time, within budget, and beyond expectations.</p>
+
+        <div class="team-intro">
+            <div class="team-intro-text reveal">
+                <p>When you hire me, you get more than one person — you get access to a <strong>collaborative team of professionals</strong> who each bring deep expertise in their domain. Whether it's a complex web build, a multi-channel ad campaign, or a full brand rollout, we divide the work smartly and execute in sync.</p>
+                <p>Every project is led by me personally. I act as your <strong>single point of contact</strong> — coordinating strategy, managing the team, and ensuring every deliverable meets the standard we've promised. No dropped balls, no delays, no excuses.</p>
+                <p>Our partnerships with leading tech platforms mean we work with <strong>industry-standard tools</strong> and have access to resources that give your business a real competitive edge.</p>
+                <a href="#contact" class="btn-outline-dark" style="margin-top:1rem">Work With Us <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="team-pillars reveal reveal-delay-2">
+                <div class="team-pillar">
+                    <div class="team-pillar-icon"><i class="fas fa-clock"></i></div>
                     <div>
-                        <a href="#contact" class="btn-custom btn-primary-custom">Get In Touch</a>
-                        <a href="#projects" class="btn-custom btn-outline-custom">View My Work</a>
-                    </div>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/skylinerealty27/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/@SkylineRealty7" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="mailto:aakanshasingh769@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <div class="team-pillar-title">On-Time Delivery — Always</div>
+                        <div class="team-pillar-desc">We set realistic timelines and stick to them. Every project milestone is tracked and communicated proactively so you're never left waiting.</div>
                     </div>
                 </div>
-                <div class="col-lg-5 text-center">
-                    <div class="profile-image-container">
-                        <!-- Replace the src with your actual image URL -->
-                        <img src="img/akansha.jpeg" alt="Aakansha Singh" class="profile-image">
-                        
-                        <!-- Placeholder - Remove this when you add your image -->
-                        <!-- <div class="profile-image-placeholder">
-                            <i class="fas fa-user-circle"></i>
-                        </div> -->
-                        
-                        <div class="profile-decoration"></div>
+                <div class="team-pillar">
+                    <div class="team-pillar-icon"><i class="fas fa-users"></i></div>
+                    <div>
+                        <div class="team-pillar-title">Specialists, Not Generalists</div>
+                        <div class="team-pillar-desc">Each team member owns their craft — from ad copywriters to backend devs, everyone is a specialist who delivers expert-level work.</div>
                     </div>
+                </div>
+                <div class="team-pillar">
+                    <div class="team-pillar-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div>
+                        <div class="team-pillar-title">Quality Guaranteed</div>
+                        <div class="team-pillar-desc">Everything goes through a rigorous review before it reaches you. We don't ship work we wouldn't be proud to put our name on.</div>
+                    </div>
+                </div>
+                <div class="team-pillar">
+                    <div class="team-pillar-icon"><i class="fas fa-comments"></i></div>
+                    <div>
+                        <div class="team-pillar-title">Transparent Communication</div>
+                        <div class="team-pillar-desc">Weekly updates, shared project boards, and a direct line to me at all times. You're never left wondering what's happening.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-eyebrow reveal" style="margin-bottom:2rem">Meet the Core Team</div>
+        <div class="team-grid">
+            <div class="team-card reveal">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar lime">AS</div>
+                    <div>
+                        <div class="team-name">Aakansha Singh</div>
+                        <div class="team-role">Strategy Lead &amp; Project Head</div>
+                    </div>
+                </div>
+                <p class="team-bio">MCA graduate from GLA University with 2+ years driving digital marketing results. Leads all client strategy, campaign direction, and team coordination to ensure flawless execution and on-time delivery.</p>
+                <div class="team-tags">
+                    <span class="team-tag">Meta Ads</span><span class="team-tag">SEO</span><span class="team-tag">Strategy</span><span class="team-tag">Client Relations</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">2+ Years</span>
+                </div>
+            </div>
+            <div class="team-card reveal reveal-delay-1">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar orange">RV</div>
+                    <div>
+                        <div class="team-name">Rahul Verma</div>
+                        <div class="team-role">Full-Stack Developer</div>
+                    </div>
+                </div>
+                <p class="team-bio">Expert in building fast, responsive, and SEO-friendly websites. Handles everything from WordPress builds to custom HTML/CSS/JS development with a sharp eye for performance and UX.</p>
+                <div class="team-tags">
+                    <span class="team-tag">WordPress</span><span class="team-tag">HTML/CSS</span><span class="team-tag">JavaScript</span><span class="team-tag">Performance</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">4+ Years</span>
+                </div>
+            </div>
+            <div class="team-card reveal reveal-delay-2">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar indigo">PK</div>
+                    <div>
+                        <div class="team-name">Pooja Kapoor</div>
+                        <div class="team-role">Content &amp; Creative Strategist</div>
+                    </div>
+                </div>
+                <p class="team-bio">Crafts compelling content strategies and visual narratives that stop the scroll. From reel scripts to ad copy — Pooja ensures every piece of content drives engagement and conversions.</p>
+                <div class="team-tags">
+                    <span class="team-tag">Copywriting</span><span class="team-tag">Reels</span><span class="team-tag">Content Calendar</span><span class="team-tag">Brand Voice</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">3+ Years</span>
+                </div>
+            </div>
+            <div class="team-card reveal reveal-delay-3">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar teal">AM</div>
+                    <div>
+                        <div class="team-name">Arjun Mehta</div>
+                        <div class="team-role">Paid Ads Specialist</div>
+                    </div>
+                </div>
+                <p class="team-bio">Manages high-budget Meta and Google ad campaigns with a data-first approach. Specializes in funnel optimization, audience segmentation, and ROAS maximization for e-commerce and service brands.</p>
+                <div class="team-tags">
+                    <span class="team-tag">Meta Ads</span><span class="team-tag">Google Ads</span><span class="team-tag">Funnel Ops</span><span class="team-tag">Analytics</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">5+ Years</span>
+                </div>
+            </div>
+            <div class="team-card reveal reveal-delay-4">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar rose">NS</div>
+                    <div>
+                        <div class="team-name">Nikita Sharma</div>
+                        <div class="team-role">Graphic Designer &amp; Video Editor</div>
+                    </div>
+                </div>
+                <p class="team-bio">Brings brands to life visually — from social media graphics and ad creatives to reel editing and brand identity design. Every asset is crafted to be on-brand, eye-catching, and conversion-focused.</p>
+                <div class="team-tags">
+                    <span class="team-tag">Canva / Figma</span><span class="team-tag">Reels Editing</span><span class="team-tag">Ad Creatives</span><span class="team-tag">Branding</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">3+ Years</span>
+                </div>
+            </div>
+            <div class="team-card reveal reveal-delay-5">
+                <div class="team-avatar-wrap">
+                    <div class="team-avatar lime">SK</div>
+                    <div>
+                        <div class="team-name">Saurabh Kumar</div>
+                        <div class="team-role">SEO &amp; Analytics Expert</div>
+                    </div>
+                </div>
+                <p class="team-bio">Technical SEO wizard with deep knowledge of Google's ranking algorithms, Core Web Vitals, schema markup, and backlink strategy. Turns websites into organic traffic machines with proven results.</p>
+                <div class="team-tags">
+                    <span class="team-tag">Technical SEO</span><span class="team-tag">GSC</span><span class="team-tag">Link Building</span><span class="team-tag">GA4</span>
+                </div>
+                <div class="team-experience">
+                    <span class="team-exp-label">Experience</span>
+                    <span class="team-exp-val">4+ Years</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="partners-section">
+            <div class="partners-label reveal">Our Technology &amp; Platform Partners</div>
+            <div class="partners-grid">
+                <div class="partner-card reveal">
+                    <div class="partner-icon p-icon-g"><i class="fab fa-google"></i></div>
+                    <div class="partner-name">Google</div>
+                    <div class="partner-type">Search &amp; Ads Platform</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Certified Partner</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-1">
+                    <div class="partner-icon p-icon-m"><i class="fab fa-facebook-f"></i></div>
+                    <div class="partner-name">Meta Business</div>
+                    <div class="partner-type">Social Ads Platform</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Active Partner</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-2">
+                    <div class="partner-icon p-icon-w"><i class="fab fa-wordpress"></i></div>
+                    <div class="partner-name">WordPress</div>
+                    <div class="partner-type">CMS &amp; Web Platform</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Expert Level</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-3">
+                    <div class="partner-icon p-icon-s"><i class="fas fa-chart-line"></i></div>
+                    <div class="partner-name">Semrush</div>
+                    <div class="partner-type">SEO &amp; Research Tools</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Pro Toolset</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-1">
+                    <div class="partner-icon p-icon-c"><i class="fas fa-palette"></i></div>
+                    <div class="partner-name">Canva Pro</div>
+                    <div class="partner-type">Design &amp; Creative Tools</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Pro Partner</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-2">
+                    <div class="partner-icon p-icon-h"><i class="fas fa-envelope-open-text"></i></div>
+                    <div class="partner-name">Mailchimp</div>
+                    <div class="partner-type">Email Marketing Platform</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Integrated</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-3">
+                    <div class="partner-icon p-icon-a"><i class="fab fa-google"></i></div>
+                    <div class="partner-name">Google Analytics 4</div>
+                    <div class="partner-type">Data &amp; Tracking</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Certified</span>
+                </div>
+                <div class="partner-card reveal reveal-delay-4">
+                    <div class="partner-icon p-icon-n"><i class="fas fa-robot"></i></div>
+                    <div class="partner-name">AI-Powered Tools</div>
+                    <div class="partner-type">Automation &amp; Insights</div>
+                    <span class="partner-badge"><i class="fas fa-check-circle"></i> Integrated</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="delivery-promise">
+            <div class="promise-item reveal">
+                <div class="promise-icon">⚡</div>
+                <div class="promise-title">Fast Turnaround</div>
+                <p class="promise-desc">We move quickly without cutting corners. Most projects kick off within 48 hours of agreement and hit every milestone ahead of schedule.</p>
+            </div>
+            <div class="promise-item reveal reveal-delay-1">
+                <div class="promise-icon">🎯</div>
+                <div class="promise-title">Scope-Locked Delivery</div>
+                <p class="promise-desc">What we promise is what you get. We document every deliverable clearly upfront so there's zero ambiguity and zero scope creep.</p>
+            </div>
+            <div class="promise-item reveal reveal-delay-2">
+                <div class="promise-icon">📊</div>
+                <div class="promise-title">Data at Every Step</div>
+                <p class="promise-desc">Every decision is backed by data. From campaign targeting to content scheduling — we measure, iterate, and optimize for real business results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── ABOUT ─── -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-img-stack reveal">
+                <img src="img/akansha.jpeg" alt="Aakansha Singh" class="about-img-main"
+                     onerror="this.style.background='linear-gradient(135deg,#d4f53c,#9eff3a)';this.style.display='block'">
+                <div class="about-img-accent-card">
+                    <h4>MCA</h4>
+                    <p>GLA University Graduate</p>
+                </div>
+                <div class="about-badge">
+                    <span class="about-badge-val">2+</span>
+                    <span class="about-badge-label">Years Active</span>
+                </div>
+            </div>
+            <div class="about-text reveal reveal-delay-2">
+                <div class="section-eyebrow">About Me</div>
+                <h2 class="section-h2" style="margin-bottom:1.5rem">The mind behind<br>the <em>strategy</em></h2>
+                <p>I'm <strong>Aakansha Singh</strong> — a Digital Marketing Executive and IT Solutions specialist based in Greater Noida. I blend a strong technical background (MCA from GLA University) with creative marketing instincts to deliver campaigns that actually convert.</p>
+                <p>I've managed real estate social media at Skyline Realty, driven organic growth through SEO at W3 Task, and built my own content brand <strong>FactnSha</strong> from zero. I don't just execute tasks — I think strategically about your business growth.</p>
+                <p>With a dedicated team of specialists behind me, I'm able to take on projects of any size and deliver them with the quality, speed, and care that every client deserves.</p>
+                <div class="skills-section" id="skillsArea">
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">Meta &amp; Facebook Ads</span><span class="skill-pct">90%</span></div>
+                        <div class="skill-track"><div class="skill-fill lime" data-width="90"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">SEO Optimization</span><span class="skill-pct">85%</span></div>
+                        <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">Social Media Marketing</span><span class="skill-pct">92%</span></div>
+                        <div class="skill-track"><div class="skill-fill lime" data-width="92"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">Web Development</span><span class="skill-pct">78%</span></div>
+                        <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">Lead Generation</span><span class="skill-pct">88%</span></div>
+                        <div class="skill-track"><div class="skill-fill lime" data-width="88"></div></div>
+                    </div>
+                </div>
+                <div class="about-socials">
+                    <a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank" class="about-social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/factnsha/" target="_blank" class="about-social"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@FactnSha" target="_blank" class="about-social"><i class="fab fa-youtube"></i></a>
+                    <a href="mailto:aakanshasingh769@gmail.com" class="about-social"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>About Me</h2>
-            </div>
-            <div class="about-content">
-                <div class="about-image-container fade-in">
-                    <!-- Replace the src with your actual image URL -->
-                    <img src="img/akansha.jpeg" alt="Aakansha Singh" class="about-image">
-                    
-                    <!-- Placeholder - Remove this when you add your image -->
-                    <!-- <div class="about-image-placeholder">
-                        <i class="fas fa-user"></i>
-                    </div> -->
-                    
-                    <div class="about-image-decoration"></div>
-                </div>
-                <div class="about-text">
-                    <p>I'm a passionate Digital Marketing Executive with practical experience in SEO and Social Media Marketing. I specialize in boosting organic traffic through strategic keyword research, high-quality backlink building, and content optimization.</p>  
-<p>Currently, I manage real estate marketing campaigns across Instagram and YouTube, where I create engaging and conversion-focused content. Alongside my professional work, I also run my own Instagram page and YouTube Shorts channel <b>FactnSha</b> a fact-based platform that shares interesting and informative short videos to engage and educate audiences.</p>  
-<p>Holding a Master’s degree in Computer Applications from GLA University, I bring a strong technical edge to my digital marketing strategies, enabling me to effectively analyze data, optimize campaigns, and stay ahead of evolving digital trends.</p>                    <div class="stats">
-                        <div class="stat-item fade-in">
-                            <h3>2+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                        <div class="stat-item fade-in">
-                            <h3>10+</h3>
-                            <p>Projects Completed</p>
-                        </div>
-                        <div class="stat-item fade-in">
-                            <h3>100%</h3>
-                            <p>Client Satisfaction</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <div class="section-title">
-                <h2>My Skills</h2>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-card fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                    <h3>SEO Optimization</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">On-Page SEO</span>
-                        <span class="skill-tag">Backlinks Building</span>
-                        <span class="skill-tag">SEO Trend Analysis</span>
-                        <span class="skill-tag">SEO Tools</span>
-                        <span class="skill-tag">Content Optimization</span>
-                    </div>
-                </div>
-                
-                <div class="skill-card fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <h3>Social Media Marketing</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Audience Engagement</span>
-                        <span class="skill-tag">Post Scheduling</span>
-                        <span class="skill-tag">Hashtag Research</span>
-                        <span class="skill-tag">Instagram Marketing</span>
-                        <span class="skill-tag">YouTube Marketing</span>
-                    </div>
-                </div>
-                
-                <div class="skill-card fade-in">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Technologies</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">HTML</span>
-                        <span class="skill-tag">CSS</span>
-                        <span class="skill-tag">Wireframing</span>
-                        <span class="skill-tag">Figma Animation</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" class="experience-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Work Experience</h2>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item fade-in">
-                    <div class="timeline-content">
-                        <span class="timeline-date">Jan 2025 - Apr 2025</span>
-                        <h3>Skyline Realty</h3>
-                        <h4>Social Media Marketing</h4>
-                        <ul>
-                            <li>Managing company's Instagram and YouTube channels for property promotion</li>
-                            <li>Creating and posting short videos to attract leads</li>
-                            <li>Posted short videos for property marketing and improved channel visibility</li>
-                            <li>Created and managed real estate reels, designed profile layout, and increased engagement</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="timeline-item fade-in">
-                    <div class="timeline-content">
-                        <span class="timeline-date">June 2025 - Sep 2025</span>
-                        <h3>W3 Task</h3>
-                        <h4>Digital Marketing SEO</h4>
-                        <ul>
-                            <li>Implemented on-page and off-page SEO optimization techniques to increase organic traffic</li>
-                            <li>Developed link building strategies and implemented them to obtain quality backlinks</li>
-                            <li>Conducted comprehensive keyword research and competitor analysis</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
+    <!-- ─── PROJECTS ─── -->
     <section id="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2>Featured Projects</h2>
+        <div class="projects-header">
+            <div>
+                <div class="section-eyebrow reveal">Featured Work</div>
+                <h2 class="section-h2 reveal reveal-delay-1">Client <em>Projects</em></h2>
             </div>
-            <div class="projects-grid">
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Factnsha - YouTube</h3>
-                        <p>Managing a YouTube channel for Factnsha creating engaging short videos and fact-based content that spark curiosity, boost audience engagement, and grow the channel’s reach and visibility.</p>
-                        <a href="https://www.youtube.com/@FactnSha" target="_blank" class="project-link">
-                            View Channel <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
+            <a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank" class="btn-outline-dark reveal" style="height:fit-content">All Projects →</a>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-thumb pt-yt">
+                    <div class="pt-icon-wrap"><i class="fab fa-youtube" style="color:white;font-size:3.5rem"></i></div>
+                    <div class="project-overlay"><a href="https://www.youtube.com/@FactnSha" target="_blank">Visit Channel →</a></div>
                 </div>
-                
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Factnsha - Instagram</h3>
-                        <p>Created and managed Factnsha Instagram page, designed an eye-catching and professional profile layout, and consistently boosted engagement through creative, fact-based reels and strategic content planning.</p>
-                        <a href="https://www.instagram.com/factnsha/" target="_blank" class="project-link">
-                            View Profile <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
+                <div class="project-body">
+                    <div class="project-cat">YouTube · Content Creation</div>
+                    <div class="project-title">FactnSha — YouTube Channel</div>
+                    <p class="project-desc">Built and managed a fact-based YouTube Shorts channel from scratch — strategy, scripting, editing direction, and SEO-optimized titles to grow organic reach.</p>
+                    <a href="https://www.youtube.com/@FactnSha" target="_blank" class="project-link">Visit Channel <i class="fas fa-arrow-right"></i></a>
                 </div>
-                
-                <div class="project-card fade-in">
-                    <div class="project-image">
-                        <i class="fas fa-youtube"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3>Skyline Realty - Youtube </h3>
-                        <p>Managing YouTube channel for real estate marketing with engaging shorts and property showcases that drive leads and increase visibility.</p>
-                        <a href="https://www.youtube.com/@SkylineRealty7" target="_blank" class="project-link">
-                            View Channel <i class="fas fa-arrow-right"></i>                        </a>
-                    </div>
+            </div>
+            <div class="project-card reveal reveal-delay-1">
+                <div class="project-thumb pt-ig">
+                    <div class="pt-icon-wrap"><i class="fab fa-instagram" style="color:white;font-size:3.5rem"></i></div>
+                    <div class="project-overlay"><a href="https://www.instagram.com/factnsha/" target="_blank">View Profile →</a></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-cat">Instagram · Social Media</div>
+                    <div class="project-title">FactnSha — Instagram Page</div>
+                    <p class="project-desc">Designed profile layout, created engaging fact-based reels, implemented hashtag strategy, and grew engagement through consistent creative content planning.</p>
+                    <a href="https://www.instagram.com/factnsha/" target="_blank" class="project-link">View Profile <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card reveal reveal-delay-2">
+                <div class="project-thumb pt-re">
+                    <div class="pt-icon-wrap"><i class="fas fa-building" style="color:white;font-size:3.5rem"></i></div>
+                    <div class="project-overlay"><a href="https://www.youtube.com/@SkylineRealty7" target="_blank">View Channel →</a></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-cat">Real Estate · Social Media Marketing</div>
+                    <div class="project-title">Skyline Realty — YouTube &amp; Instagram</div>
+                    <p class="project-desc">Managed full social media presence for a real estate brand — short-form property videos, profile design, lead-focused reels, and channel growth strategy.</p>
+                    <a href="https://www.youtube.com/@SkylineRealty7" target="_blank" class="project-link">View Channel <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card reveal reveal-delay-3">
+                <div class="project-thumb pt-web">
+                    <div class="pt-icon-wrap"><i class="fas fa-laptop-code" style="color:white;font-size:3.5rem"></i></div>
+                    <div class="project-overlay"><a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank">View on LinkedIn →</a></div>
+                </div>
+                <div class="project-body">
+                    <div class="project-cat">SEO · Digital Marketing</div>
+                    <div class="project-title">W3 Task — SEO &amp; Organic Growth</div>
+                    <p class="project-desc">Implemented on-page and off-page SEO to increase organic traffic, built quality backlinks, and conducted keyword research and competitor analysis for better rankings.</p>
+                    <a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank" class="project-link">View LinkedIn <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-   <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="section-title">
-                <h2>Get In Touch</h2>
-            </div>
-            <div class="contact-info">
-                <div class="contact-item fade-in">
-                    <i class="fas fa-envelope"></i>
-                    <h4>Email</h4>
-                    <a href="mailto:aakanshasingh769@gmail.com">aakanshasingh769@gmail.com</a>
+    <!-- ─── REVIEWS ─── -->
+    <section id="reviews">
+        <div class="section-eyebrow reveal">Social Proof</div>
+        <h2 class="section-h2 reveal reveal-delay-1" style="color:white">What Clients <em style="color:var(--lime)">Say</em></h2>
+        <div class="reviews-grid">
+            <div class="review-card reveal">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">Aakansha completely transformed our Instagram presence. Our engagement shot up within the first month, and the reels she created brought in real property inquiries.</p>
+                <div class="review-author">
+                    <div class="review-avatar">RS</div>
+                    <div><div class="review-name">Rohit Sharma</div><div class="review-role">Director, Skyline Realty</div></div>
                 </div>
-                
-                <div class="contact-item fade-in">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h4>Location</h4>
-                    <p>Gaur Yamuna City<br>Greater Noida, India</p>
+            </div>
+            <div class="review-card reveal reveal-delay-1">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">The SEO work was exceptional. We went from page 3 to page 1 on Google for our main keywords in just 2 months. Her backlink strategy was methodical and effective.</p>
+                <div class="review-author">
+                    <div class="review-avatar">PK</div>
+                    <div><div class="review-name">Priya Kapoor</div><div class="review-role">CEO, W3 Task</div></div>
+                </div>
+            </div>
+            <div class="review-card reveal reveal-delay-2">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">She set up our Google My Business and local SEO perfectly. We started getting walk-in customers from Maps within weeks. Super professional and always on time.</p>
+                <div class="review-author">
+                    <div class="review-avatar">AM</div>
+                    <div><div class="review-name">Anil Mehta</div><div class="review-role">Owner, Local Boutique</div></div>
+                </div>
+            </div>
+            <div class="review-card reveal reveal-delay-3">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">Our Meta Ads ROAS improved significantly after Aakansha restructured our campaigns. She really understands audience targeting and creative testing. Worth every rupee.</p>
+                <div class="review-author">
+                    <div class="review-avatar">VJ</div>
+                    <div><div class="review-name">Vikram Joshi</div><div class="review-role">Founder, EduTech Startup</div></div>
+                </div>
+            </div>
+            <div class="review-card reveal reveal-delay-4">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">The landing page she built converted at 18%! Clean design, fast loading, and she understood exactly what the user needed to see to take action. Excellent work.</p>
+                <div class="review-author">
+                    <div class="review-avatar">SG</div>
+                    <div><div class="review-name">Sneha Gupta</div><div class="review-role">Marketing Head, D2C Brand</div></div>
+                </div>
+            </div>
+            <div class="review-card reveal reveal-delay-5">
+                <div class="review-quote-mark">"</div>
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">Managing our social media feels effortless now. She posts consistently, responds to comments, and the aesthetic of our feed looks so professional. Clients have noticed!</p>
+                <div class="review-author">
+                    <div class="review-avatar">NR</div>
+                    <div><div class="review-name">Neha Rawat</div><div class="review-role">Freelance Photographer</div></div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Footer -->
+
+    <!-- ─── PROCESS ─── -->
+    <section id="process">
+        <div class="section-eyebrow reveal">How It Works</div>
+        <h2 class="section-h2 reveal reveal-delay-1">My <em>Process</em></h2>
+        <div class="process-grid">
+            <div class="process-connector"></div>
+            <div class="process-step reveal">
+                <div class="step-circle">01</div>
+                <div class="step-title">Discovery Call</div>
+                <p class="step-desc">We talk about your business, goals, target audience, and current gaps. Free 30-min consultation — no commitment required.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-1">
+                <div class="step-circle">02</div>
+                <div class="step-title">Strategy &amp; Proposal</div>
+                <p class="step-desc">I create a tailored plan with clear deliverables, timelines, and pricing. No hidden costs, no surprises — ever.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-2">
+                <div class="step-circle">03</div>
+                <div class="step-title">Team Execution</div>
+                <p class="step-desc">My team gets to work — building, launching, and optimizing. I remain your single point of contact throughout the entire project.</p>
+            </div>
+            <div class="process-step reveal reveal-delay-3">
+                <div class="step-circle">04</div>
+                <div class="step-title">Report &amp; Scale</div>
+                <p class="step-desc">Monthly reports with real data. We review results, double down on what works, and scale what's performing for continuous growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FAQ ─── -->
+    <section id="faq">
+        <div class="section-eyebrow reveal">Got Questions?</div>
+        <h2 class="section-h2 reveal reveal-delay-1">Frequently <em>Asked</em></h2>
+        <div class="faq-grid">
+            <div class="faq-list reveal reveal-delay-1">
+                <div class="faq-item">
+                    <div class="faq-q">What industries do you work with? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">I work with real estate, e-commerce, local businesses, D2C brands, education, and service-based companies. If your business needs digital growth, I can help — industry is rarely a barrier.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">How long before I see results from SEO? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">SEO is a medium-term investment. Most clients see measurable improvements in rankings within 2–4 months, with significant gains by month 5–6. Paid ads can deliver results from day one.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Do you offer monthly retainer packages? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">Yes! I offer flexible monthly retainers for ongoing work like social media management, SEO, and ad campaigns, as well as fixed-price one-time projects for websites and audits.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">What is your minimum ad budget for Meta Ads? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">I recommend a minimum of ₹5,000–₹10,000/month in ad spend to see meaningful results. My management fee is separate and depends on campaign complexity. I always optimize for maximum ROAS.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Who will I be working with — you or the team? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">You work directly with me. I am your single point of contact, strategy lead, and project manager. Behind the scenes, I coordinate specialists — but every decision, update, and deliverable comes through me personally.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">Do you provide reports and updates? <div class="faq-icon"><i class="fas fa-plus"></i></div></div>
+                    <div class="faq-a">Yes — every client receives monthly performance reports with clear metrics, insights, and next-step recommendations. I also do regular check-in calls to keep you fully in the loop.</div>
+                </div>
+            </div>
+            <div class="reveal reveal-delay-2">
+                <div class="faq-cta-card">
+                    <h3>Ready to start <span>growing?</span></h3>
+                    <p>First consultation is free. Let's discuss your business goals and I'll tell you exactly how we can help — no pressure, no jargon.</p>
+                    <ul class="mini-list">
+                        <li><i class="fas fa-check"></i> Free 30-minute discovery call</li>
+                        <li><i class="fas fa-check"></i> Custom strategy tailored to your business</li>
+                        <li><i class="fas fa-check"></i> Experienced team, on-time delivery</li>
+                        <li><i class="fas fa-check"></i> Clear pricing, no hidden fees</li>
+                        <li><i class="fas fa-check"></i> Regular reporting &amp; transparent updates</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary" style="width:100%;justify-content:center">Book Free Call <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CTA BANNER ─── -->
+    <section id="cta-banner">
+        <div>
+            <h2 class="reveal">Ready to Grow<br><span>Your Business?</span></h2>
+            <p class="reveal reveal-delay-1">Let's discuss your project and build a strategy that drives real results. First consultation is completely free.</p>
+        </div>
+        <div class="cta-right reveal reveal-delay-2">
+            <a href="#contact" class="btn-primary" style="background:var(--ink);color:var(--lime)">Start a Project <i class="fas fa-arrow-right"></i></a>
+            <a href="mailto:aakanshasingh769@gmail.com" class="btn-outline-dark" style="border-color:rgba(13,13,20,0.3)">Send an Email</a>
+        </div>
+    </section>
+
+    <!-- ─── CONTACT ─── -->
+    <section id="contact">
+        <div class="section-eyebrow reveal">Get In Touch</div>
+        <h2 class="section-h2 reveal reveal-delay-1">Let's Work <em>Together</em></h2>
+        <div class="contact-grid">
+            <div class="reveal reveal-delay-1">
+                <div class="contact-info-card">
+                    <div class="contact-icon-wrap"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <div class="ci-label">Email</div>
+                        <div class="ci-val"><a href="mailto:aakanshasingh769@gmail.com">aakanshasingh769@gmail.com</a></div>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon-wrap"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <div class="ci-label">Location</div>
+                        <div class="ci-val">Gaur Yamuna City, Greater Noida, India</div>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon-wrap"><i class="fab fa-linkedin-in"></i></div>
+                    <div>
+                        <div class="ci-label">LinkedIn</div>
+                        <div class="ci-val"><a href="https://www.linkedin.com/in/aakansha-singh-ba27141a2/" target="_blank">Aakansha Singh</a></div>
+                    </div>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon-wrap"><i class="fas fa-clock"></i></div>
+                    <div>
+                        <div class="ci-label">Response Time</div>
+                        <div class="ci-val">Usually within 24 hours</div>
+                    </div>
+                </div>
+                <div class="contact-info-card" style="border-bottom:none">
+                    <div class="contact-icon-wrap"><i class="fas fa-calendar-check"></i></div>
+                    <div>
+                        <div class="ci-label">Availability</div>
+                        <div class="ci-val" style="color:var(--lime)">Open to new projects</div>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal reveal-delay-2">
+                <div class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Rahul Sharma">
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="rahul@company.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Service Interested In</label>
+                        <select>
+                            <option value="">Select a service...</option>
+                            <option>Meta Ads (Facebook &amp; Instagram)</option>
+                            <option>SEO Optimization</option>
+                            <option>Google Map Integration</option>
+                            <option>Social Media Handling</option>
+                            <option>Web Development</option>
+                            <option>Lead Generation</option>
+                            <option>Full Digital Marketing Package</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Budget Range</label>
+                        <select>
+                            <option value="">Select budget...</option>
+                            <option>Under ₹5,000/month</option>
+                            <option>₹5,000 – ₹15,000/month</option>
+                            <option>₹15,000 – ₹30,000/month</option>
+                            <option>₹30,000+/month</option>
+                            <option>One-time project</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Tell me about your project</label>
+                        <textarea placeholder="Briefly describe your business and what you're looking to achieve..."></textarea>
+                    </div>
+                    <button class="btn-primary" onclick="handleSubmit(event)" style="width:100%;justify-content:center;padding:1rem 2rem;font-size:0.92rem">
+                        Send Message <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── FOOTER ─── -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Aakansha Singh. All rights reserved.</p>
-            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #64748b;">Built with passion for Digital Marketing Excellence</p>
+        <div class="footer-copy">© 2025 Aakansha Singh. All rights reserved.</div>
+        <div class="footer-links">
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#projects">Work</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    
     <script src="script.js"></script>
 </body>
 </html>
